@@ -1,6 +1,60 @@
 @charset "utf-8";
 
-* {
+body {
+    background-color: #fff;
+    padding: 0px;
+    font-size: 14px;
+    color: #000;
+}
+.container {
+    outline: auto;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 800px;
+}
+
+header {
+    background-color: #0d6300;
+    padding: 10px;
+    color: #fff;
+}
+
+header h1 {
     margin: 0;
-    padding: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+img {
+    height: 150px;
+}
+.outSideBox {
+    outline: 1px solid;
+    width: 600px;
+    margin: auto;
+}
+
+.title h2 {
+    background-color: #6a16ca;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.inSideBox {
+    display: flex;
+}
+
+.image {
+    display: block;
+    width: 200px;
+    margin: auto;
+    margin-left: 10%;
+}
+
+.document {
+    flex: 1;
+    margin-bottom: auto;
+    font-size: 12px;
+    font-weight: bold;
 }
